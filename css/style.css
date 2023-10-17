@@ -1,0 +1,166 @@
+
+body{
+    direction: rtl;   
+}
+
+.pd-y{
+    padding: 100px 0;
+}
+
+.navbar{
+    box-shadow: 1px 5px 5px #ebebeb;
+}
+
+.navbar-nav li{
+    margin: 5px;
+}
+
+.carousel-inner img{
+    width: 100vw;
+    height: 80vh;
+}
+
+.about-item
+{
+    text-align: right;
+}
+
+.about-item h1::after
+{
+    content: '';
+    display: block;
+    width: 20%;
+    margin-top: 15px;
+    height: 5px;
+    background-color: #fbcf0b;
+}
+
+.about-item p
+{
+    margin-top: 30px;
+}
+.about-item button
+{
+margin: 30px 0;
+}
+
+.news .card
+{
+    text-align: right;
+}
+
+.news
+{
+text-align: right;
+}
+.news h2
+{
+    font-size:25px ;
+    margin-top: 15px;
+}
+.news h2::after
+{
+    content: '';
+    display: block;
+    width: 20%;
+    margin-top: 15px;
+    height: 5px;
+    background-color: #fbcf0b;
+}
+
+.news .news-left
+{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.news .news-left p{
+    margin-right: 5px;
+}
+.subscribe
+{
+    height: 500px;
+    background-image:url(../images/subscribe-our-newsletter-bg.jpg) ;
+    background-size: cover;
+    position: relative;
+}
+.subscribe-item
+{
+    width: 50%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.subscribe-item p{
+
+    line-height: 2;
+}
+.subscribe-item button
+{
+    margin-top: 3%;
+}
+
+.footer
+{
+    background-color:#162247;
+    margin-top: 100px;
+}
+
+.footer-item
+{
+    text-align: right;
+    
+}
+
+.footer .footer-item h4
+{
+    font-size: 18px;
+}
+
+.footer .footer-item .news-left{
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-item .sec-2 li
+{
+    margin: 15px 0;
+    color: #fbcf0b;
+}
+
+.footer .footer-item .sec-2 li a
+{
+    color: #fbcf0b;
+}
+
+.footer .footer-item .formm
+{
+    display: flex;
+    width: 100%;
+}
+
+@media only screen and (max-width: 940px) {
+
+    .formm{
+        flex-direction: column;
+
+    }
+        .formm input{
+        font-size: 11px;
+
+    }
+  .formm button
+  {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
